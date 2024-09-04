@@ -1,0 +1,22 @@
+{
+    "name": "zenburn-theme",
+    "displayName": "Zenburn Theme",
+    "description": "Zenburn theme for VS Code",
+    "version": "1.0.0",
+    "publisher": "karinfam",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zenburn Theme",
+                "uiTheme": "vs-dark",
+                "path": "./zenburn-theme.json"
+            }
+        ]
+    }
+}
